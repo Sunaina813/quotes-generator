@@ -1,14 +1,60 @@
+/* importing google fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
 }
 
-#container {
-  display: flex;
+
+body{
+  display:flex;
+  align-items: center;
   justify-content: center;
-  align-items:center;
+  min-height: 100vh;
+  background: #5372F0;
 }
-#container p {
-  font-size: 30px;
-  font-style: italic;
+
+.wrapper{
+  width: 605px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
 }
+header ,.content :where(i,p,span){
+  color:#202842
+}
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content{
+  margin: 35px 0;
+}
+.content .quote-area{
+  display:flex;
+  justify-content: center;
+}
+.quote-area i{
+  font-size:15px;
+}
+.quote-area:first-child{
+  margin:3px 10px 0 0;
+}
+.quote-area:last-child{
+  display:flex;
+  margin: 0 0 3px 10px;
+  align-items: flex-end;
+
+}
+.quote-area .quote{
+  font-size: 22px;
+  text-align:center;
+  word-break: break-all;
+}
+
