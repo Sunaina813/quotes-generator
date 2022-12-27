@@ -6,18 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inspiring Quotes</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- linking font-awesomecdn for fonts-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
-    <div id="container">
-      <p id="para">
-        <span><strong> Quote</strong></span> <br />here new quote will display
-        like we sholud rise in the morning and do yoga for healthy body and
-        routine
-      </p>
-
-      <h2 id="authorName">M author</h2>
-
-      <button id="newQuoteBtn">New Quote</button>
+    <div class="wrapper">
+      <header>Quote of the Day</header>
+      <div class="content">
+        <div class="quote-area">
+          <i class="fas fa-quote-left"></i>
+          <p class="quote">
+            here new quote will display like we sholud rise in the morning and
+            do yoga for healthy body and routine
+          </p>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="author">
+          <span>__</span>
+          <span class="name">Mary Kay Ash</span>
+         
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="button">New Quote</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
