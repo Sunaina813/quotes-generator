@@ -57,4 +57,25 @@ header ,.content :where(i,p,span){
   text-align:center;
   word-break: break-all;
 }
+.content .author{
+  display:flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style:italic;
+  justify-content: flex-end;
+
+}
+.wrapper .buttons{
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #ccc;
+  
+ 
+  padding: 20px;
+}
+.wrapper .buttons #button{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
 
